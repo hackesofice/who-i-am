@@ -30,6 +30,9 @@ Welcome to the **Hackesofice Developer Portfolio** — a multi-page HTML/CSS/JS 
 
 ## 🚀 How to Use
 
+> if you're interested to use my portfolio then its open source and you're permitted to use/modify this website as needed and its released under `MIT LICENCE`  made with ❤️ by github.com/hackesofice
+> follow given steps Below to make it yours
+
 1. **Clone or Download** this repository:
    ```bash
    git clone https://github.com/hackesofice/hackesofice-portfolio.git
@@ -37,7 +40,7 @@ Welcome to the **Hackesofice Developer Portfolio** — a multi-page HTML/CSS/JS 
 
 2. **Open `index.html` in a browser**
    ```
-   Start with index.html and use in any local or live server.
+   open index.html or any file which u wanna customise do whatever changes you want
    ```
 
 3. **To deploy online**
@@ -70,7 +73,7 @@ Welcome to the **Hackesofice Developer Portfolio** — a multi-page HTML/CSS/JS 
 
 ## 📬 Contact
 
-📫 Email: [Reach via Contact Page](./contact.html)  
+📫 Email: [Reach via Contact Page](https://hackesofice.github.io/who-i-am/contact.html)  
 📢 Twitter: [@hackesofice](https://x.com/hackesofice)
 
 ---
