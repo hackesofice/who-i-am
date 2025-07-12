@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackesofice | Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+      color: #fff;
+    }
+    header {
+      background: #141414;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #00ffd5;
+      text-decoration: none;
+      font-family: 'Orbitron';
+      position: relative;
+    }
+    nav a.active::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 100%;
+      height: 2px;
+      background: #00ffd5;
+      border-radius: 2px;
+    }
+    .container {
+      padding: 3rem 2rem;
+    }
+    .project {
+      background: #222;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00ffd5;
+    }
+    .project h2 {
+      margin-top: 0;
+      color: #00ffd5;
+    }
+    .stats {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .project p {
+      line-height: 1.6;
+    }
+    footer {
+      background: #141414;
+      text-align: center;
+      padding: 2rem;
+      color: #aaa;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1.5rem;
+      border-radius: 20px;
+      background: #00ffd5;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    a.button:hover {
+      background: #00c3a5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Hackesofice</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>🚀 My Featured Projects</h1>
+
+    <div class="project">
+      <h2>Acode Live Server</h2>
+      <div class="stats">Downloads: 15,000+ | Stars: ⭐ 4 | Forks: 16</div>
+      <p>This plugin brings real-time HTML, CSS, and JavaScript previews to the Acode mobile editor using a Flask backend. It transforms mobile devices into full development environments without needing a PC.</p>
+      <a class="button" href="https://github.com/hackesofice/Acode-live-server" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h2>Encrypt-python</h2>
+      <div class="stats">Stars: ⭐ 1 | Forks: 2</div>
+      <p>Python source code protector using Cython compilation. Converts `.py` files into `.so` binaries for maximum obfuscation and distribution security.</p>
+      <a class="button" href="https://github.com/hackesofice/Encrypt-python" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h2>SavingFromFormData</h2>
+      <div class="stats">Stars: ⭐ 11 | Forks: 140</div>
+      <p>Automates web form interactions and message sending tasks. Frequently used for Facebook automation. Compatible with Termux, Railway, and Docker environments.</p>
+      <a class="button" href="https://github.com/hackesofice/SavingFromFormData" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h2>CreateFB</h2>
+      <div class="stats">Stars: ⭐ 1 | Forks: 0</div>
+      <p>A Python-based utility to generate multiple Facebook accounts in batch mode using automated browser control and fake identity generators. Intended for educational use only.</p>
+      <a class="button" href="https://github.com/hackesofice/createfb" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h2>All-in-one-runner</h2>
+      <div class="stats">Stars: ⭐ 14 | Forks: 6</div>
+      <p>A shell wrapper that streamlines launching Acode Live Server or AcodeX Server—provides one-command convenience for mobile coding setups.</p>
+      <a class="button" href="https://github.com/hackesofice/all-in-one-runner" target="_blank">View on GitHub</a>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Hackesofice — All projects are open source & community-focused.
+  </footer>
+</body>
+</html>
